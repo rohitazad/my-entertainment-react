@@ -55,7 +55,7 @@ const FooterComponent = ()=>{
                         </Col>
                         <Col className='col-12'>
                             <div className="footerCopyright">
-                                <small>© Lear Coding With Bhai , 2022. Developed and Designed  by <a href="https://www.youtube.com/c/AzadMalikRohit" target="_blank" rel="noreferrer">Rohit Azad Malik (R.A.M)</a>.</small>
+                                <small>© Learn Coding With Bhai , 2022. Developed and Designed  by <a href="https://www.youtube.com/c/AzadMalikRohit" target="_blank" rel="noreferrer">Rohit Azad Malik (R.A.M)</a>.</small>
                             </div>
                         </Col>
                    </Row>

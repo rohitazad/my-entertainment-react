@@ -25,7 +25,7 @@ const SearchBarCardComponents = ({searchValue, setSearchValue, typeValue, setTyp
                         </label>
                         <label htmlFor="seriesFind">
                             <input type="radio" value="movie" onChange={chagneValueHandler} checked={typeValue === 'movie' ? true : false} name="findSeriesType" id="seriesFind" />
-                            <span>Series </span>
+                            <span>Movies </span>
                         </label>
                     </div>
                     <form onSubmit={handleSubmit}>

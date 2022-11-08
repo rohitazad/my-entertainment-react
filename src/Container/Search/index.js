@@ -67,7 +67,7 @@ const  SearchContainer = ()=>{
                         <Row>
                                 {
                                     content && content.length > 0 ? content.map((item, index)=>{
-                                        return (<CardMoviesComponents key={index} data={item} mediaType="tv"/>)
+                                        return (<CardMoviesComponents key={index} data={item} mediaType={typeValue}/>)
                                     }) : 'Loading ....'
                                 }
 
